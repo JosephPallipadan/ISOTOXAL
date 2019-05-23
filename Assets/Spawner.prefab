@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1588171029294062}
+  m_IsPrefabParent: 1
+--- !u!1 &1588171029294062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4830898362968276}
+  - component: {fileID: 114347445662303584}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830898362968276
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588171029294062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114347445662303584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588171029294062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430a39caa82d02242b3c9aa07ac0e13e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorChanger: {fileID: 1343311879186252, guid: 367093fa3143ce246b7aedb873e27d1d,
+    type: 2}
+  twoColorRectangle: {fileID: 1574708978627788, guid: c5176cd02308dff448f2354dabb94ce7,
+    type: 2}
+  oneColorRectangle: {fileID: 1452211495206950, guid: 544dee34701ead84aa9cc04433fd4a65,
+    type: 2}
+  bulletRectangleSet: {fileID: 1534122777268236, guid: 7d47a48f7c7cca74188a8b14784234c2,
+    type: 2}
+  verticalTwoColorRectangleSet1: {fileID: 1524820451536378, guid: d4f870b160d10604ba026a508c33a0c5,
+    type: 2}
+  verticalTwoColorRectangleSet2: {fileID: 1444768982014244, guid: 1a13995b11e29c843baf133706aae2b7,
+    type: 2}
+  rainDrop: {fileID: 1308197968262848, guid: 65c70958bdcf6c244915fb19eeded7b8, type: 2}
+  rectangleWave: {fileID: 1821489573111086, guid: 3445dec1fae07f047a013c4ce56a07c4,
+    type: 2}
+  verticalRectangleWave: {fileID: 1570212573674688, guid: fe5d494d2358d3749bf95304dcfa6139,
+    type: 2}
+  tapBoss: {fileID: 1659127216205234, guid: 9fa2a5c7b5c90a248979f7b183033b14, type: 2}
+  dragBoss: {fileID: 1349420562806520, guid: 640f438e25f04fb42868f90c214c510c, type: 2}
+  gameOverDisplay: {fileID: 1483442215154758, guid: 4f01b70c2f436624b8a6b14470f7bc78,
+    type: 2}
+  restartDisplay: {fileID: 1947098810693476, guid: 85441044df23f1646beef2cac5298f4a,
+    type: 2}
+  returnDisplay: {fileID: 1798727475350438, guid: c72e0837c0d504d41a0fdd8bc8e9481f,
+    type: 2}
+  primaryColor: {r: 0, g: 0, b: 0, a: 0}
+  secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+  ongoingWave: 0
